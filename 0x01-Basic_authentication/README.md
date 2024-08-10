@@ -7,17 +7,17 @@ This project contains tasks for learning to authenticate a user using the Basic 
 + [x] 0. **Simple-basic-API**
   + Setup and start server:
     ```powershell
-    bob@dylan:~$ pip3 install -r requirements.txt
+    anasubuntu@anashm:~$ pip3 install -r requirements.txt
     ...
-    bob@dylan:~$
-    bob@dylan:~$ API_HOST=0.0.0.0 API_PORT=5000 python3 -m api.v1.app
+    anasubuntu@anashm:~$
+    anasubuntu@anashm:~$ API_HOST=0.0.0.0 API_PORT=5000 python3 -m api.v1.app
      * Serving Flask app "app" (lazy loading)
     ...
-    bob@dylan:~$
+    anasubuntu@anashm:~$
     ```
   + Use the API (in another tab or in your browser):
     ```powershell
-    bob@dylan:~$ curl "http://0.0.0.0:5000/api/v1/status" -vvv
+    anasubuntu@anashm:~$ curl "http://0.0.0.0:5000/api/v1/status" -vvv
     *   Trying 0.0.0.0...
     * TCP_NODELAY set
     * Connected to 0.0.0.0 (127.0.0.1) port 5000 (#0)
@@ -36,7 +36,7 @@ This project contains tasks for learning to authenticate a user using the Basic 
     <
     {"status":"OK"}
     * Closing connection 0
-    bob@dylan:~$
+    anasubuntu@anashm:~$
     ```
 
 + [x] 1. **Error handler: Unauthorized**
